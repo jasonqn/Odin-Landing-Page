@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 30px;
+    flex: 1 100%;
+}
+
+
+.header {
+    background: #1f2937;
+    margin: 0; 
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: flex-end;
+    
+}
