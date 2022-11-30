@@ -4,15 +4,12 @@
     text-align: center;
 }
 
-.wrapper > * {
-    padding: 30px;
-    flex: 1 100%;
-}
-
 
 .header {
     background: #1f2937;
     margin: 0; 
+    padding: 40px;
+    flex: 1 100%;
 }
 
 .navigation {
@@ -20,5 +17,21 @@
     flex-flow: row wrap;
     list-style: none;
     justify-content: flex-end;
-    
+    font-size: 20px;
+    gap: 20px;
 }
+
+.header-logo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100px;
+    height: 80px;
+
+}
+
+.header-logo img {
+    width: 100%;
+    height: auto;
+}
+
