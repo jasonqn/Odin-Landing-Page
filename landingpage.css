@@ -13,10 +13,10 @@
 .header {
     background: #1f2937;
     margin: 0; 
+    display: flex;
 }
 
-.navigation {
-    display: flex;
+.header .header-nav {
     flex-flow: row wrap;
     list-style: none;
     justify-content: flex-end;
