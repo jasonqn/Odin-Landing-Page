@@ -7,18 +7,27 @@
 .wrapper > * {
     padding: 30px;
     flex: 1 100%;
+    display: flex;
 }
 
 
 .header {
     background: #1f2937;
     margin: 0; 
-    display: flex;
+    flex: 1 100%;
+    
 }
 
-.header .header-nav {
-    flex-flow: row wrap;
-    list-style: none;
-    justify-content: flex-end;
+.header-logo {
+    justify-content: baseline;
+}
+
+.header-nav {
+    list-style:none;
+    justify-content: end;
     
+}
+
+.header-website{
+    justify-content: first baseline;
 }
